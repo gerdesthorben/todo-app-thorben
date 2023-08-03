@@ -1,0 +1,34 @@
+.sidebar {
+  background-color: lightgray;
+  padding: 1.5rem;
+  height: 100vh;
+}
+
+.sidebar > ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.sidebar li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addFolder {
+  border: none;
+  background-color: transparent;
+  color: coral;
+}
+.addFolder::placeholder {
+  color: coral;
+}
+.addFolder:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid coral;
+}
+.addFolder:hover {
+  border-bottom: 1px solid coral;
+}

@@ -1,0 +1,40 @@
+.todos {
+  height: 100vh;
+  padding: 1.5rem;
+  overflow: none;
+  max-width: calc(100vw-300px);
+}
+
+.todos ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.todos li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftSide input {
+  margin-right: 0.5rem;
+}
+
+.addTodo {
+  border: none;
+  background-color: transparent;
+  width: min-content;
+  color: coral;
+}
+.addTodo::placeholder {
+  color: coral;
+}
+.addTodo:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid coral;
+}
+.addTodo:hover {
+  border-bottom: 1px solid coral;
+}

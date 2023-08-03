@@ -1,0 +1,11 @@
+.header {
+  padding: 2rem 0;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h3 {
+  color: coral;
+}
